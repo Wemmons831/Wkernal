@@ -1,0 +1,3 @@
+activate docker: docker run --rm -it -v "%cd%":/root/env mk-buildenv
+qemu qemu-system-x86_64 -cdrom dist/x86_64/kernel.iso -L "C:\Program Files\qemu"
+make :./make.sh
